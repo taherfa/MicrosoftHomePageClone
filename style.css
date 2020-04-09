@@ -1,0 +1,115 @@
+:root {
+  --color-pureWhite: #fff;
+  --color-black: #000;
+  --color-grey: #262626;
+  --color-tintedWhite: #f4f4f4;
+  --color-greyer: #333;
+  --color-blue: #0067b8;
+  --color-moreTinted-white: #f2f2f2;
+  --color-properGrey: #616161;
+  --color-mostTinted-white: #ccc;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.header img {
+  width: 110px;
+}
+
+.container .header ul {
+  display: flex;
+  flex: 1;
+  list-style: none;
+  padding-left: 40px;
+}
+
+.container .header .right-items .search {
+  margin-right: 20px;
+  color: var(--color-black);
+}
+
+.container .header .right-items .cart {
+  margin-right: 10px;
+  color: var(--color-black);
+}
+
+a {
+  text-decoration: none;
+}
+
+.header .main-nav a {
+  margin-right: 30px;
+  color: #262626;
+}
+
+.showcase {
+  background: url("./img/slide1.png") no-repeat center center/cover;
+  width: 100%;
+  height: 475px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.showcase h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.showcase p {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: var(--color-black);
+  color: var(--color-pureWhite);
+  display: inline-block;
+  padding-top: 7px;
+  width: 165px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 50px 0px 50px 0px;
+}
+
+.btn:hover {
+  background-color: var(--color-greyer);
+}
+
+.container .header .main-nav a:hover {
+  padding-bottom: 4px;
+  border-bottom: 2px solid var(--color-grey);
+}
+
+.container .header .right-items i:hover {
+  padding-bottom: 4px;
+  border-bottom: 2px solid var(--color-black);
+}
