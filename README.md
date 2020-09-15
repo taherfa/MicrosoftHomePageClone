@@ -1,5 +1,7 @@
 # MicrosoftHomePageClone
 
+Hosted with Github Pages -> https://taherfa.github.io/MicrosoftHomePageClone/
+
 A fully responsive clone of Microsoft's website home page
 
 Developed Using:
